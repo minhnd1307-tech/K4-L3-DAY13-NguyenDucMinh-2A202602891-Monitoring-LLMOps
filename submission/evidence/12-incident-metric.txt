@@ -1,0 +1,13 @@
+Challenge ID: day13-k4-l3a-monitoring-llmops-v1
+Cohort: K4
+Incident: rag_slow
+Time range: 2026-09-29 08:58:54 UTC to 2026-09-29 08:59:46 UTC
+
+Abnormal Metrics Detected on Dashboard & Load Test:
+- Request Latency P95: 3,752 ms (exceeds latency SLO threshold of 3,000 ms)
+- Average latency under load test: 4,050.8 ms - 14,674.9 ms
+- Affected Feature: monitoring
+- Traffic: 5 concurrent challenge queries executed
+- Errors: 0% (queries succeeded HTTP 200, but exhibited extreme tail latency)
+- Retrieval success: 100% (5/5 retrieval spans returned documents, but retrieval duration jumped to 2.501s)
+- Alert triggered: high_request_latency (condition p95 > 3000ms, severity: warning, owner: api-oncall)
