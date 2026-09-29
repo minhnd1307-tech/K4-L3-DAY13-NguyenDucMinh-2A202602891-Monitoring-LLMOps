@@ -1,0 +1,9 @@
+Project: day13-k4-l3a-2A202602891
+Trace ID: 406c5e868ffd9c4939609f9c33d044ac
+Correlation ID: req-7f4c5efa
+Model: claude-sonnet-4-5
+Prompt: day13-chat v1 label=baseline
+Usage: {'input': 32, 'output': 85, 'total': 117}
+Cost USD: {'input': 9.6e-05, 'output': 0.001275, 'total': 0.001371}
+Generation input (sanitized): Feature=qa Docs=No domain document matched. Use general fallback answer. Question=How do metrics, logs, and traces work together?
+Generation output (sanitized): Starter answer. You should improve this output logic and add better quality chec...

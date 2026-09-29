@@ -1,0 +1,20 @@
+Project: day13-k4-l3a-2A202602891
+Root traces: 17
+All roots match a structured log: True
+406c5e868ffd9c4939609f9c33d044ac correlation_id=req-7f4c5efa prompt=day13-chat v1 label=baseline source=langfuse
+f404b54a15856a29ddd303fc28660c79 correlation_id=req-33858893 prompt=day13-chat v1 label=baseline source=langfuse
+b3699fbbb3920b1ee330c3b3dce9e236 correlation_id=req-46437106 prompt=day13-chat v1 label=baseline source=langfuse
+77742e27624b161864d42b55d19902ab correlation_id=req-e68c4d93 prompt=day13-chat v1 label=baseline source=langfuse
+6c6ab869d5c41b4f0a666ebae208facf correlation_id=req-8f5ab163 prompt=day13-chat v1 label=baseline source=langfuse
+2efbfe55bd9b38d918a322267f6a1c0b correlation_id=req-7c9d016f prompt=day13-chat v1 label=baseline source=langfuse
+ed7bf75fa8d89a3f31a13743369b1e6f correlation_id=req-ffde566e prompt=day13-chat v1 label=baseline source=langfuse
+11ac9056e702a11c7452215502216208 correlation_id=req-4ad9ce01 prompt=day13-chat v1 label=baseline source=langfuse
+79aac673e12f0c22f8bfa7f247a41811 correlation_id=req-077e40b3 prompt=day13-chat v1 label=baseline source=langfuse
+361c211369acf183b403503d289289c4 correlation_id=req-c5780147 prompt=day13-chat v1 label=baseline source=langfuse
+2e3c0abbfcc0133a9f998f0e87987119 correlation_id=req-58adfc63 prompt=day13-chat v1 label=baseline source=langfuse
+ae8992d2d45eeff78b5b6c28586ac39e correlation_id=req-b87f2018 prompt=day13-chat vlocal-v1 label=candidate source=local-fallback
+83a39520b685dcabf2450a2ad1c412c4 correlation_id=req-631b7905 prompt=day13-chat v2 label=production source=langfuse
+a9a552a8c8b23b2e3a3d0f207e0ef97c correlation_id=req-d979b848 prompt=day13-chat v1 label=production source=langfuse
+c41d0f40cf2f1b7752ac71519472db43 correlation_id=req-9c347a60 prompt=day13-chat v2 label=candidate source=langfuse
+2f6eacae00c54fadae38cd156ffff0f1 correlation_id=req-ab3c596e prompt=day13-chat v2 label=candidate source=langfuse
+9feda6a6c96aa2387462d47fa4700cbf correlation_id=req-701a74c6 prompt=day13-chat v2 label=candidate source=langfuse

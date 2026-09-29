@@ -7,7 +7,7 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình.
+  note: 'Baseline 2026-09-29 có 10/10 request thành công dưới 3000 ms; target 99.5% trên 28 ngày cho phép tối đa 0.5% request chậm hoặc lỗi, tương đương 50 bad requests trên 10,000 requests. Baseline ngắn chỉ kiểm tra ngưỡng, chưa chứng minh SLO 28 ngày.'
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5

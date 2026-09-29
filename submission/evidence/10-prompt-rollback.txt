@@ -1,0 +1,9 @@
+Before promotion: day13-chat production -> v1
+After promotion: day13-chat production -> v2
+After rollback: day13-chat production -> v1
+req-7f4c5efa: trace_id=406c5e868ffd9c4939609f9c33d044ac, version=1, label=baseline
+req-b87f2018: trace_id=ae8992d2d45eeff78b5b6c28586ac39e, version=local-v1, label=candidate
+req-631b7905: trace_id=83a39520b685dcabf2450a2ad1c412c4, version=2, label=production
+req-d979b848: trace_id=a9a552a8c8b23b2e3a3d0f207e0ef97c, version=1, label=production
+Candidate retry verified: req-9c347a60 trace_id=c41d0f40cf2f1b7752ac71519472db43, version=2, label=candidate, source=langfuse
+Screenshot cycle: production v2 -> rollback production v1

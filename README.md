@@ -83,6 +83,14 @@ python scripts/validate_dashboard.py
 python -m pytest -q
 ```
 
+Dashboard runtime đọc `data/logs.jsonl` (6 panel, cập nhật mỗi 30 giây):
+
+```bash
+python scripts/dashboard.py
+```
+
+Mở `http://127.0.0.1:8001/` sau khi chạy workload.
+
 Baseline log chưa đạt là bình thường vì các `TODO` của CP1 chưa được làm. Ghi lại kết quả baseline vào `submission/REPORT.md` trước khi sửa.
 
 ## Lộ trình 14:00–18:00 (240 phút)

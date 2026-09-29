@@ -1,0 +1,4 @@
+Project: day13-k4-l3a-2A202602891
+Prompt: day13-chat
+v1 labels: ['baseline', 'production']
+v2 labels: ['candidate', 'latest']
