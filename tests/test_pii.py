@@ -1,3 +1,4 @@
+from app.logging_config import scrub_event
 from app.pii import scrub_text
 
 
@@ -20,3 +21,10 @@ def test_scrub_common_vietnamese_phone_formats() -> None:
         out = scrub_text(f"Contact: {phone_number}")
         assert phone_number not in out
         assert "REDACTED_PHONE_VN" in out
+
+
+def test_scrub_cccd_and_payment_card_even_in_nested_log_fields() -> None:
+    event = {"session_id": "079203001234", "payload": {"items": ["4111 1111 1111 1111"]}}
+    safe = scrub_event(None, "info", event)
+    assert safe["session_id"] == "[REDACTED_CCCD]"
+    assert safe["payload"]["items"] == ["[REDACTED_CREDIT_CARD]"]
